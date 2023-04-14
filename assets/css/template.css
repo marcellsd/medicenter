@@ -125,3 +125,100 @@ nav a:hover{
     margin-top: 5px;
     border-bottom: 1px solid #0079c7 ;
     }
+
+#general{
+    display: flex;
+    justify-content: center;
+}
+
+#general section{
+    flex: 2;
+}
+
+#general aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    height: 2px;
+    width: 50px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.departments_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.departments_content{
+    width: 150px;
+    height: 150px;
+    background-color: #36a9e1;    
+}
+.Make_an_appointment_content{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.widget_contact{
+    margin: 10px;
+    font-size: 14px;
+}
+.widget_contact_text{
+    margin-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid lightgrey;
+}
+.Make_an_appointment_content img{
+    width: 20px;
+    height: 20px;
+}
+article .news_data{
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+article .news_posted_at{
+    background-color: #2b4c99;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_comments{
+    background-color: #39aae1;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .news_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
+
+article .news_resume{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+}
