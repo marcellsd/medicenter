@@ -165,7 +165,8 @@ nav a:hover{
 .departments_content{
     width: 150px;
     height: 150px;
-    background-color: #36a9e1;    
+    background-color: #36a9e1;
+    margin-right: 5px;
 }
 .Make_an_appointment_content{
     margin-top: 20px;
@@ -184,6 +185,13 @@ nav a:hover{
     width: 20px;
     height: 20px;
 }
+
+article{
+    flex:1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
 article .news_data{
     margin-top: 35px;
     display: flex;
@@ -221,4 +229,98 @@ article .news_resume{
     color: #5c5c5c;
     font-size: 14px;
     line-height: 20px;
+}
+article a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+     flex-wrap: wrap;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu{
+    display: flex;
+    flex:1;
+}
+
+.fm_1,.fm_2,.fm_3{
+    flex:1;
+    color: white;
+}
+
+.footer_menu a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer_menu a:visited{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.fm_1{
+    background-color: #39aae1;
+}
+.fm_2{
+    background-color: #0079c7;
+}
+.fm_3{
+    background-color: #2b4c99;
+}
+.footer_area{
+    display: flex;
+
+}
+.flexColumn{
+    flex-direction: column;
+    color: white;
+}
+.footer_area_item{
+    flex:1;
+    margin-right: 15px;
+}
+footer .widget_title_text{
+    color: #FFFFFF;
+}
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.widget_body_footer_text{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #5c5c5c;
+}
+
+.widget_body_footer_contacts{
+    display: flex;
+    flex:1;
+}
+.widget_body_footer_contacts .widget_body_footer_text{
+    margin-top: 5px;
+    white-space: nowrap;
+    margin-right: 15px;
+    flex: 1;
+}
+.widget_body_footer_email{
+    font-size: 14px;
+    margin-top: 15px;
+    color: white;
+    margin-top: 5px;
+    white-space: nowrap;
+    flex: 1;
 }
